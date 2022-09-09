@@ -100,7 +100,7 @@
 
                                                                 if ($_SERVER['REQUEST_URI'] == '/') {
                                                                     echo 'bg_2 ';
-                                                                } else echo 'bg-light'  ?>  ">Контакты2</button>
+                                                                } else echo 'bg-light'  ?>  ">Контакты</button>
                         <div id="myDropdown3" class="dropdown-content hide">
                             <a href="#home">Головной офис</a>
                             <a href="#about">Дилеры</a>
