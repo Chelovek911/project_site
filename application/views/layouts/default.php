@@ -84,15 +84,16 @@
                         </div>
                     </div>
                     <div id="nav" class="dropdown1 pb-3 pt-3  ">
-                        <a href="/contact" class="dropbtn1 <?php
+                        <a href="/manufacturing" class="dropbtn1 <?php
 
-                                                            if ($_SERVER['REQUEST_URI'] == '/') {
-                                                                echo 'bg_2 ';
-                                                            } else echo 'bg-light'  ?>  " <?php
+                                                                    if ($_SERVER['REQUEST_URI'] == '/') {
+                                                                        echo 'bg_2 ';
+                                                                    } else echo 'bg-light'  ?>  " <?php
 
-                                                            if ($_SERVER['REQUEST_URI'] == '/contact') {
-                                                                echo 'style="color: #1c8bff;" ';}
-                                                              ?> >Контрактное производство</a>
+                                                                                                    if ($_SERVER['REQUEST_URI'] == '/manufacturing') {
+                                                                                                        echo 'style="color: #1c8bff;" ';
+                                                                                                    }
+                                                                                                    ?>>Контрактное производство</a>
 
                     </div>
                     <div class="dropdown1 pb-3 pt-3 ">
@@ -100,9 +101,14 @@
 
                                                                 if ($_SERVER['REQUEST_URI'] == '/') {
                                                                     echo 'bg_2 ';
-                                                                } else echo 'bg-light'  ?>  ">Контакты</button>
+                                                                } else echo 'bg-light'  ?>  " <?php
+
+                                                                                                if ($_SERVER['REQUEST_URI'] == '/contacts') {
+                                                                                                    echo 'style="color: #1c8bff;" ';
+                                                                                                }
+                                                                                                ?>>Контакты</button>
                         <div id="myDropdown3" class="dropdown-content hide">
-                            <a href="#home">Головной офис</a>
+                            <a href="/contacts">Головной офис</a>
                             <a href="#about">Дилеры</a>
 
                         </div>

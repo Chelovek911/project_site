@@ -6,9 +6,11 @@ use application\core\Controller;
 use application\lib\Pagination;
 use application\models\Admin;
 
-class MainController extends Controller {
+class MainController extends Controller
+{
 
-	public function indexAction() {
+	public function indexAction()
+	{
 		$pagination = new Pagination($this->route, $this->model->postsCount());
 		$vars = [
 			'pagination' => $pagination->get(),
@@ -17,22 +19,25 @@ class MainController extends Controller {
 		$this->view->render('Главная страница', $vars);
 	}
 
-	public function aboutAction() {
+	public function aboutAction()
+	{
 		$this->view->render('Обо мне');
 	}
 
-	public function contactAction() {
+	public function manufacturingAction()
+	{
 		if (!empty($_POST)) {
 			if (!$this->model->contactValidate($_POST)) {
 				$this->view->message('error', $this->model->error);
 			}
-			mail('titef@p33.org', 'Сообщение из блога', $_POST['name'].'|'.$_POST['email'].'|'.$_POST['text']);
+			mail('titef@p33.org', 'Сообщение из блога', $_POST['name'] . '|' . $_POST['email'] . '|' . $_POST['text']);
 			$this->view->message('success', 'Сообщение отправлено Администратору');
 		}
-		$this->view->render('Контакты');
+		$this->view->render('Контрактное производство');
 	}
 
-	public function postAction() {
+	public function postAction()
+	{
 		$adminModel = new Admin;
 		if (!$adminModel->isPostExists($this->route['id'])) {
 			$this->view->errorCode(404);
@@ -42,5 +47,8 @@ class MainController extends Controller {
 		];
 		$this->view->render('Пост', $vars);
 	}
-
+	public function contactsAction()
+	{
+		$this->view->render('Контакты');
+	}
 }

@@ -4,8 +4,9 @@ return [
 	'all' => [
 		'index',
 		'about',
-		'contact',
+		'manufacturing',
 		'post',
+		'contacts',
 	],
 	'authorize' => [
 		//

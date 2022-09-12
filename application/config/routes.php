@@ -14,9 +14,13 @@ return [
 		'controller' => 'main',
 		'action' => 'about',
 	],
-	'contact' => [
+	'manufacturing' => [
 		'controller' => 'main',
-		'action' => 'contact',
+		'action' => 'manufacturing',
+	],
+	'contacts' => [
+		'controller' => 'main',
+		'action' => 'contacts',
 	],
 	'post/{id:\d+}' => [
 		'controller' => 'main',
