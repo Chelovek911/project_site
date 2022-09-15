@@ -11,6 +11,10 @@ class Main extends Model {
 	public function contactValidate($post) {
 		$nameLen = iconv_strlen($post['name']);
 		$textLen = iconv_strlen($post['text']);
+
+
+
+
 		if ($nameLen < 3 or $nameLen > 20) {
 			$this->error = 'Имя должно содержать от 3 до 20 символов';
 			return false;
