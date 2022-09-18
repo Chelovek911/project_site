@@ -21,6 +21,9 @@ return [
 	'contacts' => [
 		'controller' => 'main',
 		'action' => 'contacts',
+	],'dealers' => [
+		'controller' => 'main',
+		'action' => 'dealers',
 	],
 	'post/{id:\d+}' => [
 		'controller' => 'main',

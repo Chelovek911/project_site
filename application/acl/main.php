@@ -7,6 +7,7 @@ return [
 		'manufacturing',
 		'post',
 		'contacts',
+		'dealers',
 	],
 	'authorize' => [
 		//

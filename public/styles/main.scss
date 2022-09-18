@@ -409,9 +409,62 @@ h3::after {
   margin-top: 50px;
 }
 
+.contact_dealers {
+
+  width: 100%;
+
+  margin-top: 50px;
+
+}
+
+.row_dealers {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
 .contact_address {
   margin-right: 30px;
   width: calc(50% - 30px);
+}
+
+.content_dealers {
+  width: calc(100% - 30px);
+  margin: 0 15px 50px;
+}
+
+.item_dealers {
+  width: calc(100% / 3 - 30px);
+
+  margin: 0 15px;
+}
+
+.item_contact {
+
+  margin-bottom: 15px;
+  width: 100%;
+  margin: 0 15px;
+}
+.name {
+  background-color: #98b8c4;
+  color: #fff;
+  margin-top: 0;
+  padding: 7px 5px;
+}
+
+.section{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.title_dealers {
+  color: #98b8c4;
+  text-transform: uppercase;
+}
+
+.item_dealers h3::after {
+  background-color: #98b8c4;
 }
 
 .icon {
@@ -526,8 +579,6 @@ h3::after {
   position: relative;
   top: -69px;
 }
-
-
 
 .sideform {
   background-color: #1c8bff;

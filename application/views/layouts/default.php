@@ -118,7 +118,7 @@
                         </button>
                         <div id="myDropdown3" class="dropdown-content hide">
                             <a href="/contacts">Головной офис</a>
-                            <a href="#about">Дилеры</a>
+                            <a href="/dealers">Дилеры</a>
 
                         </div>
                     </div>
