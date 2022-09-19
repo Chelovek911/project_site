@@ -118,7 +118,7 @@
                                             <img src="public\images\icons\telephone.png">
                                         </div>
                                         <div class="telephone">
-                                            +7 (81850) 3-41-13
+                                            +7 (81850) 3-41-13777
                                         </div>
                                     </div>
                                 </div>
