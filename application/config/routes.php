@@ -21,14 +21,28 @@ return [
 	'contacts' => [
 		'controller' => 'main',
 		'action' => 'contacts',
-	],'dealers' => [
+	],
+	'dealers' => [
 		'controller' => 'main',
 		'action' => 'dealers',
+	],
+	'partners' => [
+		'controller' => 'main',
+		'action' => 'partners',
+	],
+	'polosk_dealers' => [
+		'controller' => 'main',
+		'action' => 'polosk_dealers',
+	],
+	'poloskun' => [
+		'controller' => 'main',
+		'action' => 'poloskun',
 	],
 	'post/{id:\d+}' => [
 		'controller' => 'main',
 		'action' => 'post',
 	],
+
 	// AdminController
 	'admin/login' => [
 		'controller' => 'admin',

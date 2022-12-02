@@ -8,6 +8,9 @@ return [
 		'post',
 		'contacts',
 		'dealers',
+		'partners',
+		'polosk_dealers',
+		'poloskun',
 	],
 	'authorize' => [
 		//

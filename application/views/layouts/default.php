@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="/public/styles/main.scss" rel="stylesheet">
+    <link href="public\images\image222.png" rel="icon" type="image/png" sizes="32x32" >
     <link href="/public/styles/font-awesome.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/public/scripts/jquery.js"></script>
@@ -56,8 +57,8 @@
                         </button>
                         <div id="opencontent" class="dropdown-content hide">
 
-                            <a class="menu_a" href="#home">О нас</a>
-                            <a class="menu_a" href="#about">Партнерам</a>
+                            <a class="menu_a" href="/about">О нас</a>
+                            <a class="menu_a" href="/partners">Партнерам</a>
 
                         </div>
                     </div>
@@ -86,8 +87,8 @@
                         } else echo 'bg-light' ?>  "><img name='img' src="public\images\about\ico_logo_poloskun.png">
                         </button>
                         <div id="drop" class="dropdown-content1 hide1">
-                            <a href="#home">Бытовая химия</a>
-                            <a href="#about">Дилеры</a>
+                            <a href="/poloskun">Бытовая химия</a>
+                            <a href="/polosk_dealers">Дилеры</a>
 
                         </div>
                     </div>

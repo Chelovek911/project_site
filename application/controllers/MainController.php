@@ -21,7 +21,7 @@ class MainController extends Controller
 
     public function aboutAction()
     {
-        $this->view->render('Обо мне');
+        $this->view->render('О компании');
     }
 
     public function manufacturingAction()
@@ -56,5 +56,17 @@ class MainController extends Controller
     public function dealersAction()
     {
         $this->view->render('Дилеры');
+    }
+    public function partnersAction()
+    {
+        $this->view->render('Партнерам');
+    }
+    public function polosk_dealersAction()
+    {
+        $this->view->render('Дилеры');
+    }
+    public function poloskunAction()
+    {
+        $this->view->render('Полоскун');
     }
 }
